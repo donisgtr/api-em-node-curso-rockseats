@@ -1,17 +1,26 @@
 {
-  "name": "node-api",
+  "name": "api-em-node-curso-rockseats",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "projeto do curso de node da rockseats",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donisgtr/api-em-node-curso-rockseats.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donisgtr/api-em-node-curso-rockseats/issues"
+  },
+  "homepage": "https://github.com/donisgtr/api-em-node-curso-rockseats#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
